@@ -2,6 +2,7 @@
 
 ## [Published Page](https://rittik047.github.io/BusinessIdea/)
 
+
 A single-file, dependency-free static site. No build step, no framework, no npm install.
 All charts are hand-written SVG + vanilla JS inside `index.html`.
 
