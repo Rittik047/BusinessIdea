@@ -180,13 +180,9 @@ strong,b{font-weight:650}
 .htrack{height:13px;background:var(--rule2);border-radius:999px;overflow:hidden}
 .dk .htrack,.dark .htrack{background:rgba(243,239,227,.14)}
 .hfill{height:100%;border-radius:999px;position:relative;overflow:hidden;box-shadow:inset -9px 0 13px -8px rgba(255,255,255,.55)}
-.hfill::before,.tlbar::before{content:"";position:absolute;top:-70%;left:-12%;width:150%;height:250%;pointer-events:none;
- background:repeating-linear-gradient(90deg,rgba(255,255,255,.24) 0 4px,rgba(255,255,255,0) 4px 13px,rgba(255,255,255,.13) 13px 17px,rgba(255,255,255,0) 17px 26px);
- animation:liqflow 2.3s linear infinite}
 .hfill::after,.tlbar::after{content:"";position:absolute;left:0;right:0;top:0;height:54%;pointer-events:none;
  background:linear-gradient(180deg,rgba(255,255,255,.34),rgba(255,255,255,.02));
  animation:liqbob 2.9s ease-in-out infinite}
-@keyframes liqflow{from{transform:translateX(0)}to{transform:translateX(-26px)}}
 @keyframes liqbob{0%,100%{transform:translateY(0) scaleY(1)}50%{transform:translateY(-9%) scaleY(1.09)}}
 
 /* ---------- controls ---------- */
